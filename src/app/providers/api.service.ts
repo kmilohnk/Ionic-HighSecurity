@@ -14,8 +14,8 @@ import { Out } from '../models/out.interface';
 })
 export class ApiService {
 
-  // private apiUrl = 'http://localhost:3000/api'
-  private apiUrl = 'https://highsecurity-app.herokuapp.com/api'
+  //private apiUrl = 'https://highsecurity-app.herokuapp.com/api'
+  private apiUrl = 'http://localhost:3000/api'
 
   constructor(
     private http: HttpClient
